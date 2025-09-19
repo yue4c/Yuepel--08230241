@@ -1,0 +1,135 @@
+/* =======================
+   Styles for the entire webpage body
+   ======================= */
+body {
+    font-family: 'Open Sans', sans-serif; /* Sets the primary font */
+    background-color: #fff; /* White background for the page */
+    color: #333; /* Default text color: dark gray */
+    margin: 0; /* Removes default body margin */
+    padding: 0; /* Removes default body padding */
+}
+
+/* =======================
+   Topbar styling
+   ======================= */
+.topbar {
+    background: #5888b9; /* Blue background for the topbar */
+    color: #fff; /* White text */
+    padding: 0.1em; /* Slight vertical padding */
+    width: 100%; /* Full width */
+}
+
+/* Navigation links inside the topbar */
+.nav-links {
+    list-style: none; /* Removes bullet points from list */
+    display: flex; /* Displays list items in a row */
+    gap: 2em; /* Space between each link */
+    justify-content: center; /* Center the links horizontally */
+    margin: 0; /* Removes default list margin */
+    padding: 0.5em 0; /* Vertical padding for links */
+}
+
+.nav-links li a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Removes underline */
+    font-size: 14px; /* Font size for topbar links */
+}
+
+/* =======================
+   Main navigation bar styling
+   ======================= */
+.main-nav {
+    display: flex; /* Flex layout for logo + nav sections */
+    justify-content: space-around; /* Evenly distribute sections */
+    background-color: #fff; /* White background */
+    padding: 1em 4em 1em 2em; /* Top, right, bottom, left padding */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+/* Logo styling */
+.logo {
+    height: 15vh; /* Logo height relative to viewport */
+    margin-top: -3em; /* Pulls the logo upwards slightly */
+}
+
+/* =======================
+   Navigation sections
+   ======================= */
+.nav-section {
+    text-align: center; /* Center text inside each section */
+    padding: 1em; /* Padding around each nav section */
+}
+
+.nav-section a {
+    display: block; /* Makes link a block element */
+    color: #000; /* Default link color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Bold text for links */
+}
+
+.nav-section a.active {
+    color: #1565c0; /* Highlights the current page link */
+}
+
+.nav-section p {
+    font-size: 0.75em; /* Smaller text for descriptions */
+    color: #555; /* Gray color for description text */
+}
+
+/* =======================
+   Red call-to-action button
+   ======================= */
+.btn-red {
+    background-color: #e74c3c; /* Red background */
+    color: #fff; /* White text */
+    padding: 1em 2em; /* Vertical and horizontal padding */
+    border-radius: 4px; /* Slightly rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+/* =======================
+   Banner styling
+   ======================= */
+.banner {
+    background-color: #1565c0; /* Dark blue background */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 0.5em; /* Padding around text */
+    font-weight: bold; /* Bold text */
+}
+
+/* =======================
+   Main content area
+   ======================= */
+.main-content {
+    display: flex; /* Flex layout for video + greetings */
+    padding: 1em 10%; /* Padding: 1em top/bottom, 10% left/right */
+    gap: 5em; /* Space between video and greetings */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.video-container {
+    flex: 1 1 45%; /* Flexible width, takes 45% of available space */
+}
+
+.greetings {
+    flex: 1 1 45%; /* Flexible width, takes 45% of available space */
+}
+
+.greetings p {
+    text-align: justify; /* Justify paragraph text */
+    line-height: 1.6; /* Spacing between lines for readability */
+}
+
+/* =======================
+   Footer styling
+   ======================= */
+footer {
+    background: #004080; /* Dark blue footer */
+    color: #fff; /* White text */
+    text-align: center; /* Centered text */
+    padding: 1em; /* Padding around text */
+    margin-top: 2em; /* Space above footer */
+    font-size: 0.9em; /* Slightly smaller text */
+}
